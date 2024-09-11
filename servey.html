@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programming Form</title>
+    <link rel="stylesheet" href="servey.css"> </head>
+    <style>
+    </style>
+</head>
+<body>
+    <form>
+        <label for="email">Name:</label>
+        <input type="Name" id="Name" name="Name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label>Programming Approach:</label><br>
+        <input type="radio" name="approach" value="Front-End"> Front-End<br>
+        <input type="radio" name="approach" value="Back-End"> Back-End<br>
+        <input type="radio" name="approach" value="Full-Stack"> Full-Stack<br><br>
+
+        <label>Your Favorite Programming Languages:</label><br>
+        <input type="checkbox" name="languages" value="C/C++"> C/C++<br>
+        <input type="checkbox" name="languages" value="Pascal/Delphi"> Pascal/Delphi<br>
+        <input type="checkbox" name="languages" value="Java"> Java<br>
+        <input type="checkbox" name="languages" value="JavaScript"> JavaScript<br>
+        <input type="checkbox" name="languages" value="Python"> Python<br><br>
+
+        <label>Upload file/image:</label>
+        <input type="file" name="file"><br><br>
+
+        <label>Upload resume:</label>
+        <input type="file" name="resume"><br><br>
+
+        <label for="summary">Summary:</label><br>
+        <textarea id="summary" name="summary"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
